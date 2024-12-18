@@ -1,8 +1,23 @@
-# React + Vite
+# Multi-Step Form Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive multi-step form web application built with React.js, Redux Toolkit, Formik, Yup, and React Icons. This project demonstrates state management, form validation, and responsiveness for a seamless user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## **Features**
+
+- Multi-step form with navigation between steps.
+- Validation for each step using `Formik` and `Yup`.
+- State management using `Redux Toolkit`.
+- Fully responsive design.
+- `React Icons` used with navigation links for good UI.
+- File upload validation for the test report.
+
+---
+
+## **Steps Followed**
+
+### 1. **Project Setup**
+- Initialized the project using **Vite**:
+  ```bash
+  npm create vite@latest tekonika
